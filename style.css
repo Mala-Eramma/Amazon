@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+h1 {
+    color: blue;
+    text-shadow: 3px 3px 3px green;
+    height: 100px;
+}    
+
+
+td img {
+    transition: transform 4s ease-in-out;
+    height: 150px;
+    width: 300px;
+    object-fit: contain;
+}
+
+td img:hover {
+    transform: translateY(-5px) scale(1.2);
+}
+
+button {
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: rgb(255, 217, 0);
+    margin: 20px 0px 0px 0px;
+}
+
